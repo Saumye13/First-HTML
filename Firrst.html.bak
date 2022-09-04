@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML Basics </title>
+</head>
+<body>
+	
+	<div>
+		<header>
+			We use the div tag to add a division to our page and the header tag to add this header
+		</header>
+	</div>
+	
+	<h1> This is using a heading tag </h1>
+	<br>
+	
+	<p> The tag used above(br) inserts a new line (line break) and the tag use to write this code inserts a pragraph</p>
+	<br>
+	
+	<img src="download.jpg" width="250px" height="250px" alt="Where did the image go">
+	<br>
+	
+	<p> The img tag lets us insert images and has some atributes that we can use. One of them is alt which basically inserts text if the image that was supposed to be inserted is not found </p>
+	<br>
+	
+	<h1><b><i><u> Here we use some more tags to edit our text (bold, italics, underline) </u></i></b></h1>
+	<br>
+	
+	<big> We can also use big tag to make the text bigger </big>
+	<br>
+	
+	<small> Similarly we can use small tag to make the text smaller </small>
+	<hr>
+	
+	<p> We can use the hr tag to insert a line that goes across out screen. It also has an atribute width, that decides how long the line will be, ususally given in percentage </p>
+	<a href="https://steamcommunity.com/id/NoMERCY2002"> This tag is used to create hyper links, this one should take you to my steam profile </a>
+	<br>
+	
+	<a href="https://steamcommunity.com/id/NoMERCY2002/inventory/"> <img src="1163116.png" height="500px" width="500px"> </a>
+	<p> We can also use images as a gateway to another website my uing the img tag instead of the text while creating a link </p>
+	<br>
+	
+	<h2> Now this is an ordered list </h2>
+	<ol>
+		<li> Csgo </li> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFTq5UbzVpyWvXhTmP5i_iZWXIm5PzrcOhg&usqp=CAU' width='50px' height='50px'>
+		<li> Rocket League </li>
+		<li> Forza Horizon </li>
+		<li> Apex Legends </li>
+		
+	</ol>
+	<br>
+	
+	<h2> Next, we have an unordered list </h2>
+	<ul>
+		<li> Nightmare </li>
+		<li> Aristrocrat </li>
+		<li> Mainframe </li>
+		<li> Mirage Sovenier </li>
+	</ul>
+	
+	<div>
+		<footer>
+			We use the footer tag to add a footer to our page
+		</footer>
+	</div>

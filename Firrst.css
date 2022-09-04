@@ -1,0 +1,15 @@
+/*This is how we comment. div selects all the divs, # selects particular id, . selects class, */
+div{
+	background: grey;
+	color: black;
+}
+
+#reg-form{
+	font-family: "Bebas Neue";
+	font-size: 20px;
+}
+
+.Skins{
+	background: black;
+	color: white;
+}

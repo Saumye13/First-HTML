@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML Basics </title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="Firrst.css">
+
+	<div>
+		<header>
+			We use the div tag to add a division to our page and the header tag to add this header
+		</header>
+	</div>
+	
+	<hr>
+	<h1> This is using a heading tag </h1>
+	<br>
+	
+	<p> The tag used above(br) inserts a new line (line break) and the tag use to write this code inserts a pragraph</p>
+	<br>
+	
+	<img src="download.jpg" width="250px" height="250px" alt="Where did the image go" border="3px" >
+	<br>
+	
+	<p> The img tag lets us insert images and has some atributes that we can use. One of them is alt which basically inserts text if the image that was supposed to be inserted is not found </p>
+	<br>
+	
+	<h1><b><i><u> Here we use some more tags to edit our text (bold, italics, underline) </u></i></b></h1>
+	<br>
+	
+	<big> We can also use big tag to make the text bigger </big>
+	<br>
+	
+	<small> Similarly we can use small tag to make the text smaller </small>
+	<hr>
+	
+	<p> We can use the hr tag to insert a line that goes across out screen. It also has an atribute width, that decides how long the line will be, ususally given in percentage </p>
+	<a href="https://steamcommunity.com/id/NoMERCY2002"> This tag is used to create hyper links, this one should take you to my steam profile </a>
+	<br>
+	
+	<a href="https://steamcommunity.com/id/NoMERCY2002/inventory/"> <img src="1163116.png" height="500px" width="500px"> </a>
+	<p> We can also use images as a gateway to another website my uing the img tag instead of the text while creating a link </p>
+	<br>
+	
+	<h2> Now this is an ordered list </h2>
+	<ol>
+		<li> Csgo </li> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFTq5UbzVpyWvXhTmP5i_iZWXIm5PzrcOhg&usqp=CAU' width='50px' height='50px'>
+		<li> Rocket League </li>
+		<li> Forza Horizon </li>
+		<li> Apex Legends </li>
+		
+	</ol>
+	<br>
+	
+	<h2> Next, we have an unordered list </h2>
+	<ul>
+		<li><a class = "Skins"> Nightmare </a></li>
+		<li><a class = "Skins"> Aristrocrat </a></li>
+		<li><a class = "Skins"> Mainframe </a></li>
+		<li><a class = "Skins"> Mirage Sovenier </a></li>
+	</ul>
+	
+	<hr>
+	<p> Next, we create a form using the form tag. It has an attribute called action that deciedes what will be done when the form is submitted</p>
+		
+		<div id='reg-form'>
+			<form action=''>
+				<label for='First-Name'> First Name </label>
+				<input type="text" name="First-Name" placeholder="First-Name" required>
+
+				<label for='Last-Name'> Last Name </label>
+				<input type="text" name='Last-Name' placeholder="Last-Name" required>
+
+				<br>
+				<label> Please select your gender </label>
+				<br> 
+
+				<label for="Gender"> Male </label>
+				<input type="radio" name="Gender" value="Choice-1" required>
+
+				<label for="Gender"> Female </label>
+				<input type="radio" name="Gender" value="Choice-2" required>
+
+				<br>
+				<label for="Email"> Email </label>
+				<input type="email" name="Email" placeholder="xyz123@email.com" required>
+
+				<label for="New-Pass"> New Password </label>
+				<input type="password" name="New-Pass" required>
+
+				<br>
+
+				<label for="Selection"> Steam Level </label>
+				<select name="Steam Level">
+					<option value="0" selected disabled> Level </option>
+					<option value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+					<option value="50">50</option>
+					<option value="60">60</option>
+					<option value="70">70</option>
+					<option value="80">80</option>
+					<option value="90">90</option>
+					<option value="100">100</option>
+					<option value="110">110</option>
+				</select>
+
+				<br>
+
+				<label for="Checkbox"> Have you ever dreamt of owning a dlore </label>
+				<input type="checkbox" name="Checkbox">
+
+				<br>
+
+				<button type="submit"> Submit </button>
+		</div>
+	<hr>
+	<p> Next we make a table using the tags table(declares a table), thread(adds the first column), th(adds column data), tr(adds table row) and td(adds table data) and some CSS to add borders to make our table look neater.
+	</p>
+	<br>
+	<style type="text/css">
+		table{border: 1px solid black}
+		td{border: 1px solid black}
+	</style>
+	<table>
+
+		<thread>
+			<th> Skin </th>
+			<th> Price </th>
+			<th> Float </th>
+			<th> Statrack </th>
+		</thread>
+
+		<tr>
+			<td> AWP | Asimov </td>
+			<td> 4k </td>
+			<td> 0.9 </td>
+			<td> No </td>
+		</tr>
+
+		<tr>
+			<td> AK47 | Bloodsport </td>
+			<td> 6k </td>
+			<td> 0.001 </td>
+			<td> No </td>
+		</tr>
+
+		<tr>
+			<td> M4A1-S | HyperBeast </td>
+			<td> 2k </td>
+			<td> 0.02 </td>
+			<td> Yes </td>
+		</tr>
+
+	</table>
+
+	<hr>
+	<div>
+		<footer>
+			We use the footer tag to add a footer to our page
+		</footer>
+	</div>
